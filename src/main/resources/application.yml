@@ -1,0 +1,14 @@
+
+
+default-hikari-pool:
+  poolName: "DEFAULT-POOL"
+  url: jdbc:mysql://localhost:3306/
+  username: root
+  password: 1911_Lbvf1911
+  driverClassName: com.mysql.cj.jdbc.Driver
+  # Hikari dedicated settings
+  minIdle: 5
+  maxPoolSize: 12
+  maxLifetime: 300000
+  connectionTimeout: 10000
+
